@@ -2,6 +2,23 @@ body {
   background-color: #141414;
 }
 
+.nav {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: flex-end;
+  border-bottom: 0.1rem solid #1eff00;
+}
+.nav a {
+  align-self: center;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 30px;
+  color: #797979;
+}
+.nav .title {
+  justify-items: start;
+}
 .frame {
   width: 100%;
   height: 500px;
@@ -42,27 +59,25 @@ body {
   font-family: "Montserrat";
 }
 .container .form-container {
-  border: 1rem solid yellow;
+  border: 0.1rem solid #1eff00;
   border-radius: 5px;
   width: 90%;
   margin: auto;
   display: flex;
 }
-.container .form-container .q {
-  align-self: center;
-  padding-left: 10px;
-  color: #d6d6d6;
-  margin-right: 5%;
-}
 .container .form-container .input {
+  display: flex;
+  border: 0.1rem solid #292929;
+  height: 50%;
   width: 100%;
+  align-self: center;
   border-radius: 4px;
-  padding: 18px;
+  padding: 12px;
   margin-right: 5%;
+  margin-left: 5%;
   color: white;
   outline: none;
-  border: none;
-  background-color: #141414;
+  background-color: #202020;
 }
 .container .form-container .input:hover {
   background-color: #1d1d1d;
@@ -70,11 +85,12 @@ body {
 .container .form-container .sub {
   background-color: #151515;
   color: white;
-  padding: 12px 18px;
+  padding: 14px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
   font-family: "Montserrat";
+  margin-right: 5%;
 }
 .container .form-container .sub:hover {
   background-color: #1d1d1d;
