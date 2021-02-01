@@ -42,7 +42,8 @@ body {
   font-family: "Montserrat";
 }
 .container .form-container {
-  border-radius: solid yellow 1;
+  border: 1rem solid yellow;
+  border-radius: 5px;
   width: 90%;
   margin: auto;
   display: flex;

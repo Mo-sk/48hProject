@@ -8,11 +8,12 @@ body {
   margin: 30px;
   display: flex;
   flex-direction: row;
+
   .map {
     padding-right: 200px;
     display: flex;
     justify-self: center;
-    width:60%;
+    width: 60%;
     height: 100%;
     background: #141414;
 
@@ -43,25 +44,27 @@ body {
   border-radius: 5px;
   padding: 15px;
   background-color: #141414;
-  width:30%;
-  margin:auto;
+  width: 30%;
+  margin: auto;
   border-radius: 4px;
   background: #141414;
   font-family: 'Montserrat';
 
 
   .form-container {
-    
-    border-radius: solid yellow 1;
-    width:90%;
-    margin:auto;
-    display:flex;
+    border: 1rem solid yellow;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+
     .q {
       align-self: center;
       padding-left: 10px;
       color: #d6d6d6;
       margin-right: 5%;
     }
+
     .input {
       width: 100%;
       border-radius: 4px;
