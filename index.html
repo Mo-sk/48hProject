@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>particles.js</title>
+  <title>The Formula</title>
   <meta name="description" content="background particles">
   <meta name="author" content="Simon G." />
   <meta name="viewport"
@@ -12,32 +12,14 @@
 </head>
 
 <body>
-
-
-  <!-- particles.js container -->
-  <div id="particles-js">
-
-
-  </div>
+  
 
   <!-- scripts -->
-  <script src="particles.js"></script>
-  <script src="js/app.js"></script>
-
-
-  <script>
-    var count_particles, update;
-    document.body.appendChild(stats.domElement);
-    count_particles = document.querySelector('.js-count-particles');
-    update = function () {
-      if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-        count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-      }
-      requestAnimationFrame(update);
-    };
-    requestAnimationFrame(update);
-  </script>
-
+  <script src="js/find.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/typewritting.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/typewritting.js"></script>
 </body>
 
 </html>
