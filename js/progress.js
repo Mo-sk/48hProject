@@ -9,12 +9,11 @@ if (!localStorage.getItem(progress)) {
     localStorage.setItem(progress)
 }
 
-document.querySelector('form').submit(e => {
-
-
-    let progress = localStorage.getItem("progress");
-    progress.etape1 = e.submit.value;
-    localStorage
+document.querySelector('form-cointainer').addEventListener("submit", e => {
+    console.log(e)
+    /*  let progress = localStorage.getItem("progress");
+     progress.etape1 = e.submit.value;
+     localStorage */
 })
 
 
