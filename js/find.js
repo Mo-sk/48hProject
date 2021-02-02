@@ -1,12 +1,12 @@
 /**
  * Longitude
- * @param {int} a   angle en degré
- * @param {int} m   minute
- * @param {float} s seconde (décimal)
+ * @param {int} a       angle en degré
+ * @param {int} m       minute
+ * @param {float} s     seconde (décimal)
  * 
  * Latitude
- * @param {int} a2  angle en degré
- * @param {int} m2  minute
+ * @param {int} a2      angle en degré
+ * @param {int} m2      minute
  * @param {float} sd2   seconde (décimal)
  */
 
