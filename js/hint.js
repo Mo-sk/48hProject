@@ -8,18 +8,17 @@ Plus gros travail = inventif pour les indices */
 https://www.figma.com/file/2X73YLkGRLAqjiEBlQLcb4/Untitled?node-id=1%3A11 Arborescence
 
 page 1 {
-    étape 1 - Display: none                                                     | index 0 -> Je n'apprécie pas être révélé au grand jour;
-    étape 2a - (Biographie) Cliquer sur: JE - SUIS - JULES CESAR                | index 1 -> Ne me titillez pas, cela me chatouille;
-    étape 3 - 00000001 01000110 10000001 -> 1+128+512+1024+16384+65536 = 85 585 | index 2 -> 83 585 n'est pas dans le bon ordre;
-    étape 3a - binaire qui correspond à 1 = masjucule et 0 = minuscule          | index 3 -> Beep-B00p B11p-Boop;
+    étape 1 - Display: none                                                     | index 0 -> Je n'apprécie pas être révélé au grand jour
+    étape 2a - (Biographie) Cliquer sur: JE - SUIS - JULES CESAR                | index 1 -> Ne me titillez pas, cela me chatouille
+    étape 3 - 00000001 01000110 10000001 -> 1+128+512+1024+16384+65536 = 85 585 | index 2 -> Beep-B00p B11p-Boop - 83 585 n'est pas dans le bon ordre
+     Le binaire qui correspond à 1 = masjucule et 0 = minuscule
 }
 
 page 2 {
     étape 4 - Rajouter la div avec le bon css                            | PAS D'INDICE
     étape 4a - ça a affiché le texte malvoyant caché                     | PAS D'INDICE
     étape 4b - Texte malvoyant pas encore trouvé                         | PAS D'INDICE
-    étape 4c - Texte malvoyant trouvé -> donner indice sur la clef César | index 4 -> inférieur à 22
-
+    étape 4c - Texte malvoyant trouvé -> donner indice sur la clef César | index 3 ->  donne des info sur la valeur de la clef 
 }
 
 page 3 {
@@ -34,7 +33,7 @@ if (!localStorage.getItem('nbHint')) {
 }
 
 
-let hint = ["Je n'apprécie pas être révélé au grand jour", "Ne me titillez pas, cela me chatouille", "83 585 n'est pas dans le bon ordre", "BEEP-b00p B11P-boop", "J'ai la nausée à cause de vous ! GARDES !", "Un QR Code.. comme c'est original"]
+let hint = ["Je n'apprécie pas être révélé au grand jour", "Ne me titillez pas, cela me chatouille", "Beep-B00p B11p-Boop - 83 585 n'est pas dans le bon ordre", "J'ai la nausée à cause de vous ! GARDES !", "Un QR Code.. comme c'est original"]
 
 function giveHint() {
 
