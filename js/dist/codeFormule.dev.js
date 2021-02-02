@@ -5,9 +5,15 @@ var alphabetTransform = [];
 
 function transformer(x, y) {
   for (var i = 0; i < alphabet.length; i++) {
-    var result = (i * x + y) % 26;
-    alphabetTransform.push(alphabet[result]);
+    var result = ((i + 1) * x + y) % 26;
+
+    if (alphabet[result - 1] === undefined) {
+      alphabetTransform.push("z");
+    } else {
+      alphabetTransform.push(alphabet[result - 1]);
+    }
   }
 
+  console.log(alphabet);
   console.log(alphabetTransform);
 }

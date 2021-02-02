@@ -3,9 +3,14 @@ let alphabetTransform = [];
 
 function transformer(x, y) {
     for(let i = 0; i < alphabet.length; i++) {
-        let result = (i * x + y) % 26;
-        alphabetTransform.push(alphabet[result]);
+        let result = ((i+1) * x + y) % 26;
+        if(alphabet[result-1] === undefined) {
+            alphabetTransform.push("z")
+        } else {
+            alphabetTransform.push(alphabet[result-1]);
+        }
     }
 
+    console.log(alphabet)
     console.log(alphabetTransform)
 }
