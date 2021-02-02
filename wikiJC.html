@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./css/wikiJC.min.css">
     <title>Jules César - Wikipédia</title>
 </head>
+
 <body>
     <nav class="navbar">
         <img src="./images/wikiLogo.png" alt="wikiLogo">
@@ -21,33 +23,41 @@
         <h3 class="separation-line">Jules <span class="span">César</span></h3>
 
         <div class="heading separation-line">
-            <p>Vous lisez un " <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Bons_articles">Bon article</a> ".</p>
-            <p>Pour les articles homonymes, voir 
+            <p>Vous lisez un " <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Bons_articles">Bon article</a> ".
+            </p>
+            <p>Pour les articles homonymes, voir
                 <a href="https://fr.wikipedia.org/wiki/Jules_C%C3%A9sar_(homonymie)">Jules César (homonymie)</a>,
                 <a href="https://fr.wikipedia.org/wiki/C%C3%A9sar">César</a> et
                 <a href="https://fr.wikipedia.org/wiki/Iulius_Caesar">lulius Caesar</a>.
             </p>
-            <p>Sauf précision contraire, les dates de cette page sont sous-entendues " <a href="https://fr.wikipedia.org/wiki/Anno_Domini">avant Jésus-Christ</a> "</p>
+            <p>Sauf précision contraire, les dates de cette page sont sous-entendues " <a
+                    href="https://fr.wikipedia.org/wiki/Anno_Domini">avant Jésus-Christ</a> "</p>
         </div>
 
         <section class="bio-section">
             <div class="bio">
                 <p>
-                    <span class="span">Jules</span> César (vers 100-44 avant J.-C.) est un général et un homme d’État de la République romaine, pendant l’Antiquité.
-                    Après avoir obtenu la charge de consul, il s’engage dans la guerre des Gaules et bat VercinJEtorix lors de la bataille 
+                    <span class="span">Jules</span> César (vers 100-44 avant J.-C.) est un général et un homme d’État de
+                    la République romaine, pendant l’Antiquité.
+                    Après avoir obtenu la charge de consul, il s’engage dans la guerre des Gaules et bat VercinJEtorix
+                    lors de la bataille
                     d’Alésia avec une chance de fou furieux, en 52 avant J.-C.
                 </p>
                 <p>
-                    Elipse de quatre ans, César franchit le Rubics cube et marche sur le Ruhm avec son armée. Après avoir défait <span class="span">suis</span> 
+                    Elipse de quatre ans, César franchit le Rubics cube et marche sur le Ruhm avec son armée. Après
+                    avoir défait <span class="span">suis</span>
                     rival pompée, il se fait nommer dictateur.
                 </p>
                 <p>
-                    Désormais seul aux commandes de la République romaine, il entreprend de profondes réformes qui lui assurent des pouvoirs 
+                    Désormais seul aux commandes de la République romaine, il entreprend de profondes réformes qui lui
+                    assurent des pouvoirs
                     de plus en plus importants.
                 </p>
                 <p>
-                    Il meurt assassined par un groupe de sénateurs comme Bernie Sanders le 15 mars -44 lors des Ides de mahr.
-                    Il a laissé les fameux com sur la guerre des inéluctables Gaulois dans laquelle on retient évidement que son affrontement 
+                    Il meurt assassined par un groupe de sénateurs comme Bernie Sanders le 15 mars -44 lors des Ides de
+                    mahr.
+                    Il a laissé les fameux com sur la guerre des inéluctables Gaulois dans laquelle on retient évidement
+                    que son affrontement
                     final avec Vercin<span class="span">JE</span>torix.
                 </p>
             </div>
@@ -60,15 +70,18 @@
     </div>
 
     <script src="./js/wikiJC.js"></script>
+    <script src="js/hint.js"></script>
     <script>
-        document.querySelector('.searchButton').addEventListener('click', function() {
-            document.location = 'https://fr.wikipedia.org/w/index.php?search='+ document.querySelector('.search').value+ '&title=Sp%C3%A9cial%3ARecherche&go=Lire&ns0=1';    
+        document.querySelector('.searchButton').addEventListener('click', function () {
+            document.location = 'https://fr.wikipedia.org/w/index.php?search=' + document.querySelector('.search').value + '&title=Sp%C3%A9cial%3ARecherche&go=Lire&ns0=1';
         })
 
-        document.querySelector('.search').addEventListener('keypress', function(e) {
-            if(e.key === 'Enter') {
-                document.location = 'https://fr.wikipedia.org/w/index.php?search='+ document.querySelector('.search').value+ '&title=Sp%C3%A9cial%3ARecherche&go=Lire&ns0=1';    
-            }})
+        document.querySelector('.search').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                document.location = 'https://fr.wikipedia.org/w/index.php?search=' + document.querySelector('.search').value + '&title=Sp%C3%A9cial%3ARecherche&go=Lire&ns0=1';
+            }
+        })
     </script>
 </body>
+
 </html>
