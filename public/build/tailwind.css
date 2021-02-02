@@ -31241,7 +31241,7 @@ video {
   margin-right: auto
 }
 
-.hidden-knight{
+#hidden-knight{
   --tw-text-opacity: 1;
   color: rgba(254, 202, 202, var(--tw-text-opacity));
 }
