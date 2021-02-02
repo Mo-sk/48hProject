@@ -23,9 +23,9 @@ page 2 {
 
 page 3 {
     étape 5 - Texte de la même couleur que le fond      | PAS D'INDICE
-    étape 5a - Jouer avec le parallaxe                  | index 5 -> J'ai la nausée à cause de vous ! GARDES !
+    étape 5a - Jouer avec le parallaxe                  | index 4 -> J'ai la nausée à cause de vous ! GARDES !
     étape 5b - Codes style jeu vidéo dans l'ordre de #  | PAS D'INDICE
-    étape 5c - Le QR Code donne directement             | index 6 -> Un QR Code.. comme c'est original
+    étape 5c - Le QR Code donne directement             | index 5 -> Un QR Code.. comme c'est original
 }
 */
 if (!localStorage.getItem('nbHint')) {
