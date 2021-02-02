@@ -46,4 +46,5 @@ Organisation des idée: https://www.figma.com/file/2X73YLkGRLAqjiEBlQLcb4/Untitl
 #### In Local
 
 #### Online
-Lien du projet sur netlify: https://thirsty-golick-ba7e40.netlify.app/
+Lien du projet sur netlify:
+    https://thirsty-golick-ba7e40.netlify.app/
