@@ -24,7 +24,7 @@ document.querySelector(`.form-container`).addEventListener("submit", e => {
         progress.etape1 = e.target[0].value;
 
         localStorage.progress = JSON.stringify(progress);
-        document.querySelector(`body`).innerHTML += `<div class="progress"><p class="font-bold text-white texte-xl">Félicitation Pour avoir compris une partie du message de césar,<br> en remerciement il vous offre ceci </p><spanclass="font-semibold text-gray-200 texte-md">phrase de César</spanclass=></div>`;
+        document.querySelector(`body`).innerHTML += `<div class="progress"><p class="font-bold text-white texte-xl">Félicitation Pour avoir compris une partie du message de césar,<br> en remerciement il vous offre ceci </p><spanclass="font-semibold text-gray-200 texte-md">tvlnhvyozlnhlaphzlnhlap</spanclass=></div>`;
     }
 
     if (e.target[0].value === "alea jacta est" && localStorage.progress != "") {
@@ -43,7 +43,7 @@ document.querySelector(`.form-container`).addEventListener("submit", e => {
         localStorage.progress = JSON.stringify(progress);
     }
 
-    if (e.target[0].value === "quae sunt caesaris, caesari" && JSON.parse(localStorage.progress).etape1 != "" && JSON.parse(localStorage.progress).etape2 != "" && JSON.parse(localStorage.progress).etape3 != "") {
+    if (e.target[0].value === "quaesuntcaesariscaesari" && JSON.parse(localStorage.progress).etape1 != "" && JSON.parse(localStorage.progress).etape2 != "" && JSON.parse(localStorage.progress).etape3 != "") {
         let progress = JSON.parse(localStorage.getItem("progress"));
 
         progress.finale = e.target[0].value;
