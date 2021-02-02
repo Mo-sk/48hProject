@@ -15,10 +15,12 @@ let hint = [
     "Beep-B00p B11p-Boop - Les grand  Hommes seront toujours les premiers et les autres des moins que rien",
     "A l'accueil cesar ce rend compte qu'un de ces gardes n'est plus visible, il l'appela donc \n Fouiller dans le css le garde(div) manquant et rajouter le au dom ",
     "César à du mal à le voir il l'appela donc",
-    "",
+    "Cette extension pourrai vous aider https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=fr",
     "Un QR Code.. comme c'est original",
+    "César a toujours eu peur que ces message soit ibntercepté par l'enemie",
+    "un chiffrement de césar évolué avec une double clé",
     " il n'y a plus d'indice c'est a vous de recoller les morceau",
-    ""
+
 ]
 
 function giveHint() {
@@ -34,8 +36,8 @@ function giveHint() {
         }
 
     }
-    if (window.location.href.includes('hidden')) {
-        if (JSON.parse(localStorage.nbHint) >= 8 && JSON.parse(localStorage.nbHint) < 10) {
+    if (window.location.href.includes('garde')) {
+        if (JSON.parse(localStorage.nbHint) >= 8 && JSON.parse(localStorage.nbHint) < 13) {
             console.log(`hint: ${hint[localStorage.nbHint]}`)
         }
         else {
@@ -45,7 +47,7 @@ function giveHint() {
 
     }
     if (window.location.href.includes('crypt')) {
-        if (JSON.parse(localStorage.nbHint) >= 10 && JSON.parse(localStorage.nbHint) < 12) {
+        if (JSON.parse(localStorage.nbHint) >= 13 && JSON.parse(localStorage.nbHint) < 16) {
             console.log(`hint: ${hint[localStorage.nbHint]}`)
         }
         else {
