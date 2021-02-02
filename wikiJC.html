@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/wikiJC.css">
+    <link rel="stylesheet" href="./css/wikiJC.min.css">
     <title>Jules César - Wikipédia</title>
 </head>
 <body>
@@ -18,7 +18,7 @@
     </nav>
 
     <div class="container">
-        <h3 class="separation-line">Jules César</h3>
+        <h3 class="separation-line">Jules <span class="span">César</span></h3>
 
         <div class="heading separation-line">
             <p>Vous lisez un " <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Bons_articles">bon article</a> ".</p>
@@ -33,12 +33,12 @@
         <section class="bio-section">
             <div class="bio">
                 <p>
-                    Jules César (vers 100-44 avant J.-C.) est un général et un homme d’État de la République romaine, pendant l’Antiquité.
+                    <span class="span">Jules</span> César (vers 100-44 avant J.-C.) est un général et un homme d’État de la République romaine, pendant l’Antiquité.
                     Après avoir obtenu la charge de consul, il s’engage dans la guerre des Gaules et bat VercinJEtorix lors de la bataille 
                     d’Alésia avec une chance de fou furieux, en 52 avant J.-C.
                 </p>
                 <p>
-                    Elipse de quatre ans, César franchit le Rubics cube et marche sur le Ruhm avec son armée. Après avoir défait suis 
+                    Elipse de quatre ans, César franchit le Rubics cube et marche sur le Ruhm avec son armée. Après avoir défait <span class="span">suis</span> 
                     rival pompée, il se fait nommer dictateur.
                 </p>
                 <p>
@@ -48,7 +48,7 @@
                 <p>
                     Il meurt assassined par un groupe de sénateurs comme Bernie Sanders le 15 mars -44 lors des Ides de mahr.
                     Il a laissé les fameux com sur la guerre des inéluctables Gaulois dans laquelle on retient évidement que son affrontement 
-                    final avec VercinJEtorix.
+                    final avec Vercin<span class="span">JE</span>torix.
                 </p>
             </div>
             <div class="recap-bio">
@@ -59,6 +59,7 @@
         </section>
     </div>
 
+    <script src="./js/wikiJC.js"></script>
     <script>
         document.querySelector('.searchButton').addEventListener('click', function() {
             document.location = 'https://fr.wikipedia.org/w/index.php?search='+ document.querySelector('.search').value+ '&title=Sp%C3%A9cial%3ARecherche&go=Lire&ns0=1';    
