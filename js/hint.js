@@ -22,10 +22,12 @@ let hint = [
 function giveHint() {
 
     if (window.location.href.includes('index')) {
-        if (JSON.parse(localStorage.nbHint) >= 0 && JSON.parse(localStorage.nbHint) < 8) {
+        if (JSON.parse(localStorage.nbHint) >= 0 && JSON.parse(localStorage.nbHint) < 7) {
             console.log(`hint: ${hint[localStorage.nbHint]}`)
-        }
-        else {
+
+        } else if (JSON.parse(localStorage.progess).etape1 == "" && JSON.parse(localStorage.nbHint) > 6 && JSON.parse(localStorage.nbHint) <= 8) {
+            console.log(`hint: ${hint[localStorage.nbHint]}`)
+        } else {
             console.log(`Il n'y a plus d'indice pour cette étape`)
         }
 
