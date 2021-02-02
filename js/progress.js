@@ -6,6 +6,15 @@ let progress = {
     finale: ""
 }
 
+if (JSON.parse(localStorage.progress).etape1 != "") {
+    document.querySelector(`.nav-link`).innerHTML += "<li class=\"pr-5\"><a href=\"/parallax.html\"> Hidden</a></li>";
+    if (JSON.parse(localStorage.progress).etape2 != "") {
+        document.querySelector(`.nav-link`).innerHTML += "<li class=\"pr-5\"><a href=\"/garde.html\">Garde</a></li>"
+    }
+}
+
+
+
 if (!localStorage.getItem('progress')) {
     localStorage.setItem("progress", JSON.stringify(progress));
     console.log(localStorage.getItem(progress))
@@ -24,15 +33,17 @@ document.querySelector(`.form-container`).addEventListener("submit", e => {
         progress.etape1 = e.target[0].value;
 
         localStorage.progress = JSON.stringify(progress);
+        document.querySelector(`.nav-link`).innerHTML += "<li class=\"pr-5\"><a href=\"/parallax.html\"> Hidden</a></li>";
         document.querySelector(`body`).innerHTML += `<div class="progress"><p class="font-bold text-white texte-xl">Félicitation Pour avoir compris une partie du message de césar,<br> en remerciement il vous offre ceci </p><spanclass="font-semibold text-gray-200 texte-md">tvlnhvyozlnhlaphzlnhlap</spanclass=></div>`;
     }
 
-    if (e.target[0].value === "alea jacta est" && localStorage.progress != "") {
+    if (e.target[0].value === "alea jacta est" && JSON.parse(localStorage.progress).etape1 != "") {
         let progress = JSON.parse(localStorage.getItem("progress"));
 
         progress.etape2 = e.target[0].value;
 
         localStorage.progress = JSON.stringify(progress);
+        document.querySelector(`.nav-link`).innerHTML += "<li class=\"pr-5\"><a href=\"/garde.html\">Garde</a></li>"
     }
 
     if (e.target[0].value === "7.5" && JSON.parse(localStorage.progress).etape2 != "" && localStorage.progress.etape1 != "") {
