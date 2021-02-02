@@ -15,6 +15,11 @@ Use a better box model (opinionated).
   box-sizing: border-box;
 }
 
+.cesar-buste::after {
+  content: 'JE SUIS JULES CESAR';
+  display: none;
+}
+
 /**
 Use a more readable tab size (opinionated).
 */
