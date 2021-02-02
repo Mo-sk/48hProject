@@ -5,7 +5,7 @@ en fonction de leur position dans le site. index = position
 Plus gros travail = inventif pour les indices */
 
 // ## Bon taff Amélie ##
-//                  {signé Noé]
+//                  {signé Noé}
 
 /* 
 https://www.figma.com/file/2X73YLkGRLAqjiEBlQLcb4/Untitled?node-id=1%3A11 Arborescence
