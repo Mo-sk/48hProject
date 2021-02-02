@@ -35,7 +35,7 @@ document.querySelector(`.form-container`).addEventListener("submit", e => {
         localStorage.progress = JSON.stringify(progress);
     }
 
-    if (e.target[0].value === "5,7" && JSON.parse(localStorage.progress).etape2 != "" && localStorage.progress.etape1 != "") {
+    if (e.target[0].value === "7.5" && JSON.parse(localStorage.progress).etape2 != "" && localStorage.progress.etape1 != "") {
         let progress = JSON.parse(localStorage.getItem("progress"));
 
         progress.etape3 = e.target[0].value;
@@ -53,4 +53,6 @@ document.querySelector(`.form-container`).addEventListener("submit", e => {
     }
 })
 
-
+function fill(  ) {
+    document.querySelector(`.`)
+}

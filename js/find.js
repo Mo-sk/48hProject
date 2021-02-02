@@ -14,5 +14,5 @@
 function find(a,m,s,a2,m2,sd2) {
 
     console.log("hint: use satelite view")
-    return("https://www.google.fr/maps/place/" + f + "°"+ i +"'" + n + "S" + "+" + d + "°"+ a +"'" + t + "E");
+    return("https://www.google.fr/maps/place/" + f + "°"+ i +"'" + n + "\"S" + "+" + d + "°"+ a +"'" + t + "\"E");
 }
