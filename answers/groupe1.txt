@@ -1,0 +1,9 @@
+	étape 1 : postman get https://challenge-48h-g1.yxssi.vercel.app/api/firstkey
+	 	  RtGarXGRxd
+	étape 2 : postman get https://challenge-48h-g1.yxssi.vercel.app/api/secondkey
+		  postman get https://challenge-48h-g1.yxssi.vercel.app/api/RtGarXGRxd
+		  101 43 75 65 105 43 75 65 105 122 81 121 97 70 115 52 97 109 100 108 99 108 108 102 79 69 52 122 98 106 52 51 75 122 90 71 87 106 86 72 87 71 116 122 101 105 49 117 81 108 81 113 73 84 74 57 52 111 67 76 52 111 67 76 87 86 69 116 79 65 61 61
+	étape 3 : postman get https://challenge-48h-g1.yxssi.vercel.app/api/thirdkey
+		  decode 101 43 75 65 105 43 75 65 105 122 81 121 97 70 115 52 97 109 100 108 99 108 108 102 79 69 52 122 98 106 52 51 75 122 90 71 87 106 86 72 87 71 116 122 101 105 49 117 81 108 81 113 73 84 74 57 52 111 67 76 52 111 67 76 87 86 69 116 79 65 61 61
+		  e+KAi+KAizQyaFs4amdlcllfOE4zbj43KzZGWjVHWGtzei1uQlQqITJ94oCL4oCLWVEtOA==
+	étape 4:  {​​42h[8jgerY_8N3n>7+6FZ5GXksz-nBT*!2}​​YQ-8
