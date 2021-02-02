@@ -1,0 +1,15 @@
+On clique sur Non pour l'obtention de données.
+
+On arrive sur la page erreur 404
+
+On clique sur le 0 de 404
+
+le code binaire sont des coordonnées à Moscou
+
+on rentre donc "Moscou" en mot de passe 
+
+on réalise l'équation pour x = 12 et obtient 1380, on le rentre en tant que mot de passe
+on clique sur le href : /superposition
+on supprime les elements gris par dessus le form 
+et on entre "entrez gg"
+puis avec l'inspection on clique sur  <a href="/F1n@L"></a> pour arriver sur la page BRAVO
