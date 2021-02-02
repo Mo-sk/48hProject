@@ -15,18 +15,18 @@ page 1 {
 }
 
 page 2 {
-    étape 4 -   | index 4
-    étape 4a -  | index 5
-    étape 4b - Texte malvoyant pas encore trouvé    | index 6
-    étape 4c - Texte malvoyant trouvé -> donner indice sur la clef César | index 7 -> inférieur à 22
+    étape 4 - Rajouter la div avec le bon css  | PAS D'INDICE
+    étape 4a - ça a affiché le texte malvoyant caché | PAS D'INDICE
+    étape 4b - Texte malvoyant pas encore trouvé    | PAS D'INDICE
+    étape 4c - Texte malvoyant trouvé -> donner indice sur la clef César | index 4 -> inférieur à 22
 
 }
 
 page 3 {
-    étape 5 -   | index 8
-    étape 5a -  | index 9
-    étape 5b -  | index 10
-    étape 5c - Le QR Code donne ->  | index 11
+    étape 5 - Texte de la même couleur que le fond      | PAS D'INDICE
+    étape 5a - Jouer avec le parallaxe                  | index 5 -> J'ai la nausée à cause de vous ! GARDES !
+    étape 5b - Codes style jeu vidéo dans l'ordre de #  | PAS D'INDICE
+    étape 5c - Le QR Code donne directement             | index 6 -> Un QR Code.. comme c'est original
 }
 */
 if (!localStorage.getItem('nbHint')) {
@@ -38,7 +38,7 @@ if (!localStorage.getItem('nbHint')) {
 }
 
 
-let hint = ["Je n'apprécie pas être révélé au grand jour", "Ne me titillez pas, cela me chatouille", "83 585 n'est pas dans le bon ordre", "BEEP-b00p B11P-boop", "", ""]
+let hint = ["Je n'apprécie pas être révélé au grand jour", "Ne me titillez pas, cela me chatouille", "83 585 n'est pas dans le bon ordre", "BEEP-b00p B11P-boop", "J'ai la nausée à cause de vous ! GARDES !", "Un QR Code.. comme c'est original"]
 
 function giveHint() {
 
