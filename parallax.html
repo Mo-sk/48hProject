@@ -5,12 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/parallax.min.css">
     <title>Parallux</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 </head>
 <body>
-    <img src="./images/jeSuisJulesCesar.svg" alt="">
-    <img src="./images/colonneRomaine.png" alt="">
-    <img src="./images/couronneLaurier.png" alt="">
-    <img src="./images/pieceCesar.png" alt="">
-    <img src="./images/louveRome.png" alt="">
+    <div class="container">
+        <ul id="scene">
+            <li class="layer" data-depth=".8"><img class="colisee" src="./images/colisee.png"></li>
+            <li class="layer" data-depth=".3"><img class="piece-cesar" src="./images/pieceCesar.png"></li>
+            <li class="layer" data-depth=".7"><img class="laurier" src="./images/couronneLaurier.png"></li>
+            <li class="layer" data-depth=".1"><img class="je-suis-cesar" src="./images/jeSuisJulesCesar.svg"></li>
+            <li class="layer" data-depth="2.5"><img class="colonne-romaine" src="./images/colonneRomaine.png"></li>
+            <li class="layer" data-depth="1"><img class="soldat-romain" src="./images/romainSoldat.png"></li>
+            <li class="layer" data-depth="1.8"><img class="louve" src="./images/louveRome.png"></li>
+        </ul>
+
+        <img class="jx jx1" src="./images/jx1.svg">
+        <img class="jx jx2" src="./images/jx2.svg">
+        <img class="jx jx3" src="./images/jx3.svg">
+        <img class="jx jx4" src="./images/jx4.svg">
+        <div class="answer">
+            <input placeholder="RKD3N-ZNP20-2OF4P-MZFKP" maxlength="23" type="text" class="code">
+        </div>
+    </div>
+    <script src="./js/parallux.js"></script>
+    <script>
+		var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+	</script>
 </body>
 </html>

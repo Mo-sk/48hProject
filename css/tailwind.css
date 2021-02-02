@@ -1,0 +1,43 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer utilities {
+    .bg-black{
+       background-color: #141414
+    }
+}
+.nav-wrapper{
+        @apply flex justify-between bg-gray-800 p-5 text-white font-bold text-2xl;
+}
+
+.nav-link{
+    @apply flex flex-row;
+}
+
+.map-container{
+    @apply rounded w-1/2 bg-gray-200 mr-1;
+}
+.map-svg{
+    @apply object-cover h-full w-full;
+}
+
+.cesar-container{
+    @apply rounded w-1/2 bg-gray-400 flex flex-col;
+}
+.form-container{
+    @apply rounded w-1/4 bg-gray-600 p-5 flex flex-row justify-center shadow;
+}
+.progress{
+    @apply rounded w-1/4 bg-green-600 p-2 mx-auto;
+    }
+
+.wrapper{
+    @apply mx-auto
+}
+
+#hidden-knight{
+    @apply text-red-200;
+}
