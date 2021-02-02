@@ -15,6 +15,11 @@ Use a better box model (opinionated).
   box-sizing: border-box;
 }
 
+.cesar-buste::after {
+  content: 'JE SUIS JULES CESAR';
+  display: none;
+}
+
 /**
 Use a more readable tab size (opinionated).
 */
@@ -31224,6 +31229,21 @@ video {
   --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   width: 25%;
+}
+
+.progress{
+  --tw-bg-opacity: 1;
+  background-color: rgba(5, 150, 105, var(--tw-bg-opacity));
+  border-radius: 0.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem;
+  width: 25%;
+}
+
+.wrapper{
+  margin-left: auto;
+  margin-right: auto
 }
 
 @media (min-width: 640px) {

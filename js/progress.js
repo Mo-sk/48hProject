@@ -24,7 +24,7 @@ document.querySelector(`.form-container`).addEventListener("submit", e => {
         progress.etape1 = e.target[0].value;
 
         localStorage.progress = JSON.stringify(progress);
-        document.querySelector(`body`).innerHTML += `<div class="password"><span>phrase de César</span></div>` ;
+        document.querySelector(`body`).innerHTML += `<div class="progress"><p class="font-bold text-white texte-xl">Félicitation Pour avoir compris une partie du message de césar,<br> en remerciement il vous offre ceci </p><spanclass="font-semibold text-gray-200 texte-md">phrase de César</spanclass=></div>`;
     }
 
     if (e.target[0].value === "LeDeuxièmeCodee" && localStorage.progress != "") {
