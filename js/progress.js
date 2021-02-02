@@ -23,6 +23,7 @@ document.querySelector(`.form-container`).addEventListener("submit", e => {
         progress.etape1 = e.target[0].value;
 
         localStorage.progress = JSON.stringify(progress);
+        document.querySelector(`body`).innerHTML += `<div class="password"><span>phrase de César</span></div>` ;
     }
 
     if (e.target[0].value === "LeDeuxièmeCodee" && localStorage.progress != "") {
@@ -33,10 +34,18 @@ document.querySelector(`.form-container`).addEventListener("submit", e => {
         localStorage.progress = JSON.stringify(progress);
     }
 
-    if (e.target[0].value === "TroisièmeCodeee" && localStorage.progress.etape2 != "" && localStorage.progress.etape1 != "") {
+    if (e.target[0].value === "TroisièmeCodeee" && JSON.parse(localStorage.progress).etape2 != "" && localStorage.progress.etape1 != "") {
         let progress = JSON.parse(localStorage.getItem("progress"));
 
         progress.etape3 = e.target[0].value;
+
+        localStorage.progress = JSON.stringify(progress);
+    }
+
+    if (e.target[0].value === "finale" && JSON.parse(localStorage.progress).etape1 != "" && JSON.parse(localStorage.progress).etape2 != "" && JSON.parse(localStorage.progress).etape3 != "") {
+        let progress = JSON.parse(localStorage.getItem("progress"));
+
+        progress.finale = e.target[0].value;
 
         localStorage.progress = JSON.stringify(progress);
     }
