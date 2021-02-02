@@ -1,7 +1,7 @@
-étape 1: Cassoulet
-étape 2: Schneider
-étape 3: Lion
-étape 3 fin : TGlvbg==
-étape 4 : password
-étape 5 : ABACAPGGPS
+étape 1: Cassoulet -> M
+étape 2: Schneider  -> T
+étape 3: Lion -> B
+étape 3 fin : TGlvbg== -> J
+étape 4 : password -> D
+étape 5 : ABACAPGGPS -> J
 code final pour hack :MTBJDJ
