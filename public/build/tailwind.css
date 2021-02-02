@@ -31226,6 +31226,21 @@ video {
   width: 25%;
 }
 
+.progress{
+  --tw-bg-opacity: 1;
+  background-color: rgba(5, 150, 105, var(--tw-bg-opacity));
+  border-radius: 0.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem;
+  width: 25%;
+}
+
+.wrapper{
+  margin-left: auto;
+  margin-right: auto
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
