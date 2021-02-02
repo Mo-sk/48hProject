@@ -9,6 +9,6 @@ code.addEventListener("keypress", function (e) {
   code.value = code.value.toUpperCase();
 
   if (e.key === 'Enter' && code.value == 'R9UNV-VPJH4-LK30S-2GYE4') {
-    document.querySelector('.answer').innerHTML = "<img src='./images/QRCode.png'>";
+    document.querySelector('.answer').innerHTML = "<img src='./images/frame.png'>";
   }
 });
