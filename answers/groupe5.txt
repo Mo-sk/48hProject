@@ -1,0 +1,2 @@
+étape1: button display none (à retirer)
+étape2: coordonnées à trouver (en cours) + image se terminant par 2e8b0344
