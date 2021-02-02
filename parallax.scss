@@ -57,15 +57,63 @@ body {
                 width: 100px;
                 transform: translate3d(0, -50%, 0) rotate(-5deg);
             }
+
+            @media screen and (max-width: 720px) {
+                .colisee, .louve, .soldat-romain, .colonne-romaine {
+                    display: none;
+                }
+
+                .je-suis-cesar {
+                    width: 50%;
+                    top: 10%;
+                }
+                .piece-cesar {
+                    width: 45%;
+                }
+                .laurier {
+                    width: 70%;
+                }
+            }
         }
     }
 
     .jx {
         z-index: -1;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate3d(-50%, -50%, 0);
+
+        &.jx1 {
+            top: 100px;
+            left: 100px;
+        }
+        &.jx2 {
+            top: 50%;
+            left: 150px;
+        }
+        &.jx3 {
+            top: 200px;
+            right: 50px;
+        }
+        &.jx4 {
+            bottom: 35%;
+            right: 35%;
+            transform: translate3d(50%, 50%, 0);
+        }
+
+        @media screen and (max-width: 720px) {
+            &.jx2 {
+                top: 55%;
+                left: 100px;
+            }
+            &.jx3 {
+                top: 145px;
+                right: 50px;
+            }
+            &.jx4 {
+                right: 25%;
+                bottom: 25%;
+                transform: translate3d(50%, 50%, 0);
+            }
+        }
     }
 
     .answer {
@@ -93,6 +141,17 @@ body {
             bottom: 0;
             right: 0;
             width: 150px;
+        }
+    }
+    @media screen and (max-width: 720px) {
+        .answer {
+            right: 50%;
+            transform: translateX(50%);
+
+            img {
+                right: 50%;
+                transform: translateX(50%);
+            }
         }
     }
 } 
