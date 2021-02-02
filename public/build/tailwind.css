@@ -15,11 +15,6 @@ Use a better box model (opinionated).
   box-sizing: border-box;
 }
 
-.cesar-buste::after {
-  content: 'JE SUIS JULES CESAR';
-  display: none;
-}
-
 /**
 Use a more readable tab size (opinionated).
 */
@@ -31244,6 +31239,11 @@ video {
 .wrapper{
   margin-left: auto;
   margin-right: auto
+}
+
+#hidden-knight{
+  --tw-text-opacity: 1;
+  color: rgba(254, 202, 202, var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {

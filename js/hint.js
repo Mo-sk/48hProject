@@ -13,7 +13,7 @@ let hint = [
     "Tous les chemin mène à l'accueil",
     "Beep-B00p B11p-Boop - la frontiere entre l'homme et la machine est fine",
     "Beep-B00p B11p-Boop - Les grand  Hommes seront toujours les premiers et les autres des moins que rien",
-    "J'ai la nausée à cause de vous ! GARDES !",
+    "A l'accueil cesar ce rend compte qu'un de ces gardes n'est plus visible, il l'appela donc \n Fouiller dans le css le garde(div) manquant et rajouter le au dom ",
     "Un QR Code.. comme c'est original",
     " il n'y a plus d'indice c'est a vous de recoller les morceau",
     ""

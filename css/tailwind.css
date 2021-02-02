@@ -37,3 +37,7 @@
 .wrapper{
     @apply mx-auto
 }
+
+#hidden-knight{
+    @apply text-red-200;
+}
