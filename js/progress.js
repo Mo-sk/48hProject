@@ -1,3 +1,4 @@
+
 let progress = {
     etape1: "",
     etape2: "",
