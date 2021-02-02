@@ -25,6 +25,41 @@ page 2 {
 }
 
 */
+if (!localStorage.getItem('nbHint')) {
+    localStorage.setItem('nbHint', 0);
+}
 
 
 let hint = ["Je n'apprécie pas être révélé au grand jour", "Ne me titillez pas, cela me chatouille", "83 585 n'est pas dans le bon ordre", "BEEP-b00p B11P-boop", "", ""]
+
+function giveHint() {
+
+    if (window.location.href.includes('index')) {
+        if (JSON.parse(localStorage.nbHint) >= 0 || JSON.parse(localStorage.nbHint) < 3) {
+            console.log(`hint: ${hint[localStorage.nbHint]}`)
+        }
+        else {
+            console.log(`Il n'y a plus d'indice pour cette étape`)
+        }
+
+    }
+    if (window.location.href.includes('hidden')) {
+        if (JSON.parse(localStorage.nbHint) >= 3 || JSON.parse(localStorage.nbHint) < 5) {
+            console.log(`hint: ${hint[localStorage.nbHint]}`)
+        }
+        else {
+            console.log(`Il n'y a plus d'indice pour cette étape`)
+        }
+
+
+    }
+    if (window.location.href.includes('hidden')) {
+        if (JSON.parse(localStorage.nbHint) >= 5 || JSON.parse(localStorage.nbHint) < 6) {
+            console.log(`hint: ${hint[localStorage.nbHint]}`)
+        }
+        else {
+            console.log(`Il n'y a plus d'indice pour cette étape`)
+        }
+
+    }
+}
