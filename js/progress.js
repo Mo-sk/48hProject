@@ -43,13 +43,13 @@ document.querySelector(`.form-container`).addEventListener("submit", e => {
         localStorage.progress = JSON.stringify(progress);
     }
 
-    if (e.target[0].value === "Quae sunt Caesaris, Caesari" && JSON.parse(localStorage.progress).etape1 != "" && JSON.parse(localStorage.progress).etape2 != "" && JSON.parse(localStorage.progress).etape3 != "") {
+    if (e.target[0].value === "quae sunt caesaris, caesari" && JSON.parse(localStorage.progress).etape1 != "" && JSON.parse(localStorage.progress).etape2 != "" && JSON.parse(localStorage.progress).etape3 != "") {
         let progress = JSON.parse(localStorage.getItem("progress"));
 
         progress.finale = e.target[0].value;
 
         localStorage.progress = JSON.stringify(progress);
-        document.querySelector(`body`).innerHTML += `<div class="success"><p class="font-semibold text-white texte-xl">Félicitation Pour avoir compris le code finale de César qui était :<spanclass="font-bold text-gray-200 texte-xl"></spanc></p></div>`;
+        document.querySelector(`body`).innerHTML += `<div class="success"><p class="font-semibold text-white texte-xl">Félicitation Pour avoir compris le code finale de César qui était :<span class="font-bold text-gray-200 texte-xl">quae sunt caesaris, caesari</span></p></div>`;
     }
 })
 
