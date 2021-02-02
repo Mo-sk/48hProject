@@ -70,8 +70,4 @@ function giveHint() {
         }
 
     }
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
