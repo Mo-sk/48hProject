@@ -15,9 +15,9 @@ page 1 {
 }
 
 page 2 {
-    étape 4 - Rajouter la div avec le bon css  | PAS D'INDICE
-    étape 4a - ça a affiché le texte malvoyant caché | PAS D'INDICE
-    étape 4b - Texte malvoyant pas encore trouvé    | PAS D'INDICE
+    étape 4 - Rajouter la div avec le bon css                            | PAS D'INDICE
+    étape 4a - ça a affiché le texte malvoyant caché                     | PAS D'INDICE
+    étape 4b - Texte malvoyant pas encore trouvé                         | PAS D'INDICE
     étape 4c - Texte malvoyant trouvé -> donner indice sur la clef César | index 4 -> inférieur à 22
 
 }
