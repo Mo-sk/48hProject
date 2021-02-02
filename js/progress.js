@@ -27,7 +27,7 @@ document.querySelector(`.form-container`).addEventListener("submit", e => {
         document.querySelector(`body`).innerHTML += `<div class="progress"><p class="font-bold text-white texte-xl">Félicitation Pour avoir compris une partie du message de césar,<br> en remerciement il vous offre ceci </p><spanclass="font-semibold text-gray-200 texte-md">phrase de César</spanclass=></div>`;
     }
 
-    if (e.target[0].value === "LeDeuxièmeCodee" && localStorage.progress != "") {
+    if (e.target[0].value === "alea jacta est" && localStorage.progress != "") {
         let progress = JSON.parse(localStorage.getItem("progress"));
 
         progress.etape2 = e.target[0].value;
@@ -35,7 +35,7 @@ document.querySelector(`.form-container`).addEventListener("submit", e => {
         localStorage.progress = JSON.stringify(progress);
     }
 
-    if (e.target[0].value === "TroisièmeCodeee" && JSON.parse(localStorage.progress).etape2 != "" && localStorage.progress.etape1 != "") {
+    if (e.target[0].value === "5,7" && JSON.parse(localStorage.progress).etape2 != "" && localStorage.progress.etape1 != "") {
         let progress = JSON.parse(localStorage.getItem("progress"));
 
         progress.etape3 = e.target[0].value;
@@ -43,12 +43,13 @@ document.querySelector(`.form-container`).addEventListener("submit", e => {
         localStorage.progress = JSON.stringify(progress);
     }
 
-    if (e.target[0].value === "finale" && JSON.parse(localStorage.progress).etape1 != "" && JSON.parse(localStorage.progress).etape2 != "" && JSON.parse(localStorage.progress).etape3 != "") {
+    if (e.target[0].value === "Quae sunt Caesaris, Caesari" && JSON.parse(localStorage.progress).etape1 != "" && JSON.parse(localStorage.progress).etape2 != "" && JSON.parse(localStorage.progress).etape3 != "") {
         let progress = JSON.parse(localStorage.getItem("progress"));
 
         progress.finale = e.target[0].value;
 
         localStorage.progress = JSON.stringify(progress);
+        document.querySelector(`body`).innerHTML += `<div class="success"><p class="font-semibold text-white texte-xl">Félicitation Pour avoir compris le code finale de César qui était :<spanclass="font-bold text-gray-200 texte-xl"></spanc></p></div>`;
     }
 })
 
