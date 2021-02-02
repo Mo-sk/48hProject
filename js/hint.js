@@ -24,21 +24,37 @@ let hint = [
 ]
 
 function giveHint() {
+    let nbHint = JSON.parse(localStorage.getItem("nbHint"));
 
+    nbHint++;
     if (window.location.href.includes('index')) {
-        if (JSON.parse(localStorage.nbHint) >= 0 && JSON.parse(localStorage.nbHint) < 7) {
+        if (JSON.parse(localStorage.nbHint) >= 0 && JSON.parse(localStorage.nbHint) < 3) {
             console.log(`hint: ${hint[localStorage.nbHint]}`)
+            localStorage.nbHint = JSON.stringify(nbHint);
 
-        } else if (JSON.parse(localStorage.progess).etape1 == "" && JSON.parse(localStorage.nbHint) > 6 && JSON.parse(localStorage.nbHint) <= 8) {
+        } else if (JSON.parse(localStorage.progress).etape1 == "" && JSON.parse(localStorage.nbHint) > 6 && JSON.parse(localStorage.nbHint) <= 8) {
             console.log(`hint: ${hint[localStorage.nbHint]}`)
+            localStorage.nbHint = JSON.stringify(nbHint);
         } else {
             console.log(`Il n'y a plus d'indice pour cette étape`)
+
         }
 
+    }
+    if (window.location.href.includes('wiki')) {
+        if (JSON.parse(localStorage.nbHint) >= 3 && JSON.parse(localStorage.nbHint) < 7) {
+            console.log(`hint: ${hint[localStorage.nbHint]}`)
+            localStorage.nbHint = JSON.stringify(nbHint);
+        }
+        else {
+            console.log(`Il n'y a plus d'indice pour cette étape`)
+
+        }
     }
     if (window.location.href.includes('garde')) {
         if (JSON.parse(localStorage.nbHint) >= 8 && JSON.parse(localStorage.nbHint) < 13) {
             console.log(`hint: ${hint[localStorage.nbHint]}`)
+            localStorage.nbHint = JSON.stringify(nbHint);
         }
         else {
             console.log(`Il n'y a plus d'indice pour cette étape`)
@@ -49,14 +65,13 @@ function giveHint() {
     if (window.location.href.includes('crypt')) {
         if (JSON.parse(localStorage.nbHint) >= 13 && JSON.parse(localStorage.nbHint) < 16) {
             console.log(`hint: ${hint[localStorage.nbHint]}`)
+            localStorage.nbHint = JSON.stringify(nbHint);
         }
         else {
             console.log(`Il n'y a plus d'indice pour cette étape`)
         }
 
     }
-    let nbHint = JSON.parse(localStorage.getItem("nbHint"));
 
-    nbHint++;
-    localStorage.nbHint = JSON.stringify(nbHint);
+
 }
