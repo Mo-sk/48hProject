@@ -53,6 +53,6 @@ document.querySelector(`.form-container`).addEventListener("submit", e => {
     }
 })
 
-function fill(  ) {
-    document.querySelector(`.`)
+function fill() {
+    document.querySelector(`#hidden-knight`).setAttribute('aria-label', 'yaya')
 }
