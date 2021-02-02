@@ -1,5 +1,5 @@
 function find(f,i,n,d,a,t) {
 
-    console.log("hint: use satelite vue ")
+    console.log("hint: use satelite view")
     return("https://www.google.fr/maps/place/" + f + "°"+ i +"'" + n + "S" + "+" + d + "°"+ a +"'" + t + "E");
 }
