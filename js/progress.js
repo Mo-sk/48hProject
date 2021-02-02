@@ -52,4 +52,6 @@ document.querySelector(`.form-container`).addEventListener("submit", e => {
     }
 })
 
-
+function fill(  ) {
+    document.querySelector(`.`)
+}
