@@ -1,4 +1,30 @@
 //tableau d'indice
-// 0,5  etape 1
-//5.9 etape 2
-let hint = ["grand dirigeant de rome", "let indice"]
+/*Créer un tableau 'let hint' qui ressort des hint à la demande
+en fonction de leur position dans le site. index = position
+
+Plus gros travail = inventif pour les indices */
+
+// ## Bon taff Amélie ##
+//                  {signé Noé]
+
+/* 
+https://www.figma.com/file/2X73YLkGRLAqjiEBlQLcb4/Untitled?node-id=1%3A11 Arborescence
+
+page 1 {
+    étape 1 - Display: none | index 0 -> Je n'apprécie pas être révélé au grand jour;
+    étape 2a - (Biographie) Cliquer sur: JE - SUIS - JULES CESAR | index 1 -> Ne me titillez pas, cela me chatouille;
+    étape 3 - 00000001 01000110 10000001 -> 1+128+512+1024+16384+65536 = 85 585 | index 2 -> 83 585 n'est pas dans le bon ordre;
+    étape 3a - binaire qui correspond à 1 = masjucule et 0 = minuscule | index 3 -> Beep-B00p B11p-Boop;
+
+    
+}
+
+page 2 {
+
+
+}
+
+*/
+
+
+let hint = ["Je n'apprécie pas être révélé au grand jour", "Ne me titillez pas, cela me chatouille", "83 585 n'est pas dans le bon ordre", "BEEP-b00p B11P-boop", "", ""]
