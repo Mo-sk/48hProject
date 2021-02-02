@@ -16,6 +16,7 @@ let hint = [
     "A l'accueil cesar ce rend compte qu'un de ces gardes n'est plus visible, il l'appela donc \n Fouiller dans le css le garde(div) manquant et rajouter le au dom ",
     "César à du mal à le voir il l'appela donc",
     "Cette extension pourrai vous aider https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=fr",
+    "Un changement de fond peut changer notre vision des chose",
     "Un QR Code.. comme c'est original",
     "César a toujours eu peur que ces message soit ibntercepté par l'enemie",
     "un chiffrement de césar évolué avec une double clé",
