@@ -54,5 +54,5 @@ document.querySelector(`.form-container`).addEventListener("submit", e => {
 })
 
 function fill() {
-    document.querySelector(`#hidden-knight`).setAttribute('aria-label', 'yaya')
+    document.querySelector(`#hidden-knight`).setAttribute('aria-label', 'alea jacta est')
 }
