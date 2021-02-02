@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+html { overflow-y: hidden; } 
 
 body {
     background-color: #141414;
@@ -14,6 +15,11 @@ body {
         .layer {
             width: 100vw;
             height: 100vh;
+
+            .colisee {
+                width: 400px;
+                transform: rotate(-10deg);
+            }
 
             .piece-cesar, .laurier {
                 position: absolute;
@@ -31,10 +37,17 @@ body {
 
             .louve {
                 position: absolute;
-                top: 20%;
-                right: 100px;
+                top: 50%;
+                right: 120px;
                 width: 300px;
                 transform: rotate(30deg);
+            }
+
+            .soldat-romain {
+                position: absolute;
+                top: 0;
+                right: 100px;
+                transform: rotate(5deg);
             }
 
             .colonne-romaine {
@@ -42,8 +55,44 @@ body {
                 top: 50%;
                 left: 200px;
                 width: 100px;
-                transform: translate3d(0, -50%, 0) rotate(-10deg);
+                transform: translate3d(0, -50%, 0) rotate(-5deg);
             }
+        }
+    }
+
+    .jx {
+        z-index: -1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+    }
+
+    .answer {
+        position: absolute;
+        bottom: 40px;
+        right: 50px;
+        width: 300px;
+        height: 60px;
+
+        .code {
+            width: 300px;
+            height: 60px;
+            background-color: black;
+            box-shadow: 0 0 30px 0 #1EFF00;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            text-align: center;
+            outline: none;
+            color: #BABABA;
+        }
+
+        img {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 150px;
         }
     }
 } 
