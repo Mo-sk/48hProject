@@ -1,26 +1,18 @@
-
-
-
-
-
-
-
-
 # Projet 48H 
 
-## tableau d'indice 
+## Organisation
 
-Créer un tableau 'let hint' qui ressort des hint à la demande
+<!-- Créer un tableau 'let hint' qui ressort des hint à la demande
 en fonction de leur position dans le site. index = position
 
-Plus gros travail = inventif pour les indices 
+Plus gros travail = inventif pour les indices  -->
 
 
 Organisation des idée: https://www.figma.com/file/2X73YLkGRLAqjiEBlQLcb4/Untitled?node-id=1%3A11 
 
 ## Arborescence
 
-### Page 1 
+### Accueil 
 | etape                                                                       | indice                                                                                    |
 | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | étape 1 - Display: none                                                     | index 0 -> Je n'apprécie pas être révélé au grand jour                                    |
@@ -29,7 +21,7 @@ Organisation des idée: https://www.figma.com/file/2X73YLkGRLAqjiEBlQLcb4/Untitl
 | Le binaire qui correspond à 1 = masjucule et 0 = minuscule -->              |
    
         
-### Page 2 
+### Hidden
 | etape                                                                | indice                                              |
 | -------------------------------------------------------------------- | --------------------------------------------------- |
 | étape 4 - Rajouter la div avec le bon css                            | PAS D'INDICE                                        |
@@ -37,8 +29,7 @@ Organisation des idée: https://www.figma.com/file/2X73YLkGRLAqjiEBlQLcb4/Untitl
 | étape 4b - Texte malvoyant pas encore trouvé                         | PAS D'INDICE                                        |
 | étape 4c - Texte malvoyant trouvé -> donner indice sur la clef César | index 3 ->  donne des info sur la valeur de la clef |
 
-
-### page 3 
+### Garde
 | etape                                              | indice                                               |
 | -------------------------------------------------- | ---------------------------------------------------- |
 | étape 5 - Texte de la même couleur que le fond     | PAS D'INDICE                                         |
@@ -46,3 +37,10 @@ Organisation des idée: https://www.figma.com/file/2X73YLkGRLAqjiEBlQLcb4/Untitl
 | étape 5b - Codes style jeu vidéo dans l'ordre de # | PAS D'INDICE                                         |
 | étape 5c - Le QR Code donne directement            | index 5 -> Un QR Code.. comme c'est original         |
 
+## Use the projet 
+
+#### In Local
+
+#### Online
+Lien du projet sur netlify:
+    https://thirsty-golick-ba7e40.netlify.app/
