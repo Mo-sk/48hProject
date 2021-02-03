@@ -1,1 +1,75 @@
-var _0x3b55 = ["", "\x65\x74\x61\x70\x65\x31", "\x70\x72\x6F\x67\x72\x65\x73\x73", "\x70\x61\x72\x73\x65", "\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C", "\x2E\x6E\x61\x76\x2D\x6C\x69\x6E\x6B", "\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72", "\x3C\x6C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x72\x2D\x35\x22\x3E\x3C\x61\x20\x68\x72\x65\x66\x3D\x22\x2F\x70\x61\x72\x61\x6C\x6C\x61\x78\x2E\x68\x74\x6D\x6C\x22\x3E\x20\x48\x69\x64\x64\x65\x6E\x3C\x2F\x61\x3E\x3C\x2F\x6C\x69\x3E", "\x65\x74\x61\x70\x65\x32", "\x3C\x6C\x69\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x72\x2D\x35\x22\x3E\x3C\x61\x20\x68\x72\x65\x66\x3D\x22\x2F\x67\x61\x72\x64\x65\x2E\x68\x74\x6D\x6C\x22\x3E\x47\x61\x72\x64\x65\x3C\x2F\x61\x3E\x3C\x2F\x6C\x69\x3E", "\x67\x65\x74\x49\x74\x65\x6D", "\x73\x74\x72\x69\x6E\x67\x69\x66\x79", "\x73\x65\x74\x49\x74\x65\x6D", "\x6C\x6F\x67", "\x73\x75\x62\x6D\x69\x74", "\x76\x61\x6C\x75\x65", "\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74", "\x74\x61\x72\x67\x65\x74", "\x50\x72\x30\x6A\x65\x74\x34\x38\x68\x59\x67\x72\x6F\x75\x70\x65\x32", "\x62\x6F\x64\x79", "\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x70\x72\x6F\x67\x72\x65\x73\x73\x22\x3E\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x6F\x6E\x74\x2D\x62\x6F\x6C\x64\x20\x74\x65\x78\x74\x2D\x77\x68\x69\x74\x65\x20\x74\x65\x78\x74\x65\x2D\x78\x6C\x22\x3E\x46\xE9\x6C\x69\x63\x69\x74\x61\x74\x69\x6F\x6E\x20\x50\x6F\x75\x72\x20\x61\x76\x6F\x69\x72\x20\x63\x6F\x6D\x70\x72\x69\x73\x20\x75\x6E\x65\x20\x70\x61\x72\x74\x69\x65\x20\x64\x75\x20\x6D\x65\x73\x73\x61\x67\x65\x20\x64\x65\x20\x63\xE9\x73\x61\x72\x2C\x3C\x62\x72\x3E\x20\x65\x6E\x20\x72\x65\x6D\x65\x72\x63\x69\x65\x6D\x65\x6E\x74\x20\x69\x6C\x20\x76\x6F\x75\x73\x20\x6F\x66\x66\x72\x65\x20\x63\x65\x63\x69\x20\x3C\x2F\x70\x3E\x3C\x73\x70\x61\x6E\x63\x6C\x61\x73\x73\x3D\x22\x66\x6F\x6E\x74\x2D\x73\x65\x6D\x69\x62\x6F\x6C\x64\x20\x74\x65\x78\x74\x2D\x67\x72\x61\x79\x2D\x32\x30\x30\x20\x74\x65\x78\x74\x65\x2D\x6D\x64\x22\x3E\x74\x76\x6C\x6E\x68\x76\x79\x6F\x7A\x6C\x6E\x68\x6C\x61\x70\x68\x7A\x6C\x6E\x68\x6C\x61\x70\x3C\x2F\x73\x70\x61\x6E\x63\x6C\x61\x73\x73\x3D\x3E\x3C\x2F\x64\x69\x76\x3E", "\x61\x6C\x65\x61\x20\x6A\x61\x63\x74\x61\x20\x65\x73\x74", "\x37\x2E\x35", "\x65\x74\x61\x70\x65\x33", "\x71\x75\x61\x65\x73\x75\x6E\x74\x63\x61\x65\x73\x61\x72\x69\x73\x63\x61\x65\x73\x61\x72\x69", "\x66\x69\x6E\x61\x6C\x65", "\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x22\x73\x75\x63\x63\x65\x73\x73\x22\x3E\x3C\x70\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x6F\x6E\x74\x2D\x73\x65\x6D\x69\x62\x6F\x6C\x64\x20\x74\x65\x78\x74\x2D\x77\x68\x69\x74\x65\x20\x74\x65\x78\x74\x65\x2D\x78\x6C\x22\x3E\x46\xE9\x6C\x69\x63\x69\x74\x61\x74\x69\x6F\x6E\x20\x50\x6F\x75\x72\x20\x61\x76\x6F\x69\x72\x20\x63\x6F\x6D\x70\x72\x69\x73\x20\x6C\x65\x20\x63\x6F\x64\x65\x20\x66\x69\x6E\x61\x6C\x65\x20\x64\x65\x20\x43\xE9\x73\x61\x72\x20\x71\x75\x69\x20\xE9\x74\x61\x69\x74\x20\x3A\x3C\x73\x70\x61\x6E\x20\x63\x6C\x61\x73\x73\x3D\x22\x66\x6F\x6E\x74\x2D\x62\x6F\x6C\x64\x20\x74\x65\x78\x74\x2D\x67\x72\x61\x79\x2D\x32\x30\x30\x20\x74\x65\x78\x74\x65\x2D\x78\x6C\x22\x3E\x71\x75\x61\x65\x20\x73\x75\x6E\x74\x20\x63\x61\x65\x73\x61\x72\x69\x73\x2C\x20\x63\x61\x65\x73\x61\x72\x69\x3C\x2F\x73\x70\x61\x6E\x3E\x3C\x2F\x70\x3E\x3C\x2F\x64\x69\x76\x3E", "\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72", "\x2E\x66\x6F\x72\x6D\x2D\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72", "\x61\x72\x69\x61\x2D\x6C\x61\x62\x65\x6C", "\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65", "\x23\x68\x69\x64\x64\x65\x6E\x2D\x6B\x6E\x69\x67\x68\x74"]; let progress = { etape1: _0x3b55[0], etape2: _0x3b55[0], etape3: _0x3b55[0], finale: _0x3b55[0] }; if (JSON[_0x3b55[3]](localStorage[_0x3b55[2]])[_0x3b55[1]] != _0x3b55[0]) { document[_0x3b55[6]](`${_0x3b55[5]}`)[_0x3b55[4]] += _0x3b55[7]; if (JSON[_0x3b55[3]](localStorage[_0x3b55[2]])[_0x3b55[8]] != _0x3b55[0]) { document[_0x3b55[6]](`${_0x3b55[5]}`)[_0x3b55[4]] += _0x3b55[9] } }; if (!localStorage[_0x3b55[10]](_0x3b55[2])) { localStorage[_0x3b55[12]](_0x3b55[2], JSON[_0x3b55[11]](progress)); console[_0x3b55[13]](localStorage[_0x3b55[10]](progress)) }; document[_0x3b55[6]](`${_0x3b55[28]}`)[_0x3b55[27]](_0x3b55[14], (_0x33a5x2) => { _0x33a5x2[_0x3b55[15]]; _0x33a5x2[_0x3b55[16]](); console[_0x3b55[13]](_0x33a5x2[_0x3b55[17]][0][_0x3b55[15]]); if (_0x33a5x2[_0x3b55[17]][0][_0x3b55[15]] === _0x3b55[18]) { let progress = JSON[_0x3b55[3]](localStorage[_0x3b55[10]](_0x3b55[2])); progress[_0x3b55[1]] = _0x33a5x2[_0x3b55[17]][0][_0x3b55[15]]; localStorage[_0x3b55[2]] = JSON[_0x3b55[11]](progress); document[_0x3b55[6]](`${_0x3b55[5]}`)[_0x3b55[4]] += _0x3b55[7]; document[_0x3b55[6]](`${_0x3b55[19]}`)[_0x3b55[4]] += `${_0x3b55[20]}` }; if (_0x33a5x2[_0x3b55[17]][0][_0x3b55[15]] === _0x3b55[21] && JSON[_0x3b55[3]](localStorage[_0x3b55[2]])[_0x3b55[1]] != _0x3b55[0]) { let progress = JSON[_0x3b55[3]](localStorage[_0x3b55[10]](_0x3b55[2])); progress[_0x3b55[8]] = _0x33a5x2[_0x3b55[17]][0][_0x3b55[15]]; localStorage[_0x3b55[2]] = JSON[_0x3b55[11]](progress); document[_0x3b55[6]](`${_0x3b55[5]}`)[_0x3b55[4]] += _0x3b55[9] }; if (_0x33a5x2[_0x3b55[17]][0][_0x3b55[15]] === _0x3b55[22] && JSON[_0x3b55[3]](localStorage[_0x3b55[2]])[_0x3b55[8]] != _0x3b55[0] && localStorage[_0x3b55[2]][_0x3b55[1]] != _0x3b55[0]) { let progress = JSON[_0x3b55[3]](localStorage[_0x3b55[10]](_0x3b55[2])); progress[_0x3b55[23]] = _0x33a5x2[_0x3b55[17]][0][_0x3b55[15]]; localStorage[_0x3b55[2]] = JSON[_0x3b55[11]](progress) }; if (_0x33a5x2[_0x3b55[17]][0][_0x3b55[15]] === _0x3b55[24] && JSON[_0x3b55[3]](localStorage[_0x3b55[2]])[_0x3b55[1]] != _0x3b55[0] && JSON[_0x3b55[3]](localStorage[_0x3b55[2]])[_0x3b55[8]] != _0x3b55[0] && JSON[_0x3b55[3]](localStorage[_0x3b55[2]])[_0x3b55[23]] != _0x3b55[0]) { let progress = JSON[_0x3b55[3]](localStorage[_0x3b55[10]](_0x3b55[2])); progress[_0x3b55[25]] = _0x33a5x2[_0x3b55[17]][0][_0x3b55[15]]; localStorage[_0x3b55[2]] = JSON[_0x3b55[11]](progress); document[_0x3b55[6]](`${_0x3b55[19]}`)[_0x3b55[4]] += `${_0x3b55[26]}` } }); function fill() { document[_0x3b55[6]](`${_0x3b55[31]}`)[_0x3b55[30]](_0x3b55[29], _0x3b55[21]) }
+
+let progress = {
+    etape1: "",
+    etape2: "",
+    etape3: "",
+    finale: ""
+}
+
+if (JSON.parse(localStorage.progress).etape1 != "") {
+    document.querySelector(`.nav-link`).innerHTML += "<li class=\"pr-5\"><a href=\"/parallax.html\"> Hidden</a></li>";
+    document.querySelector(`body`).innerHTML += `<div class="progress md:w-1/2 "><p class="font-bold text-white texte-xl">Félicitation Pour avoir compris une partie du message de césar,<br> en remerciement il vous offre ceci </p><spanclass="font-semibold text-gray-200 texte-md">tvlnhvyozlnhlaphzlnhlap</span></div>`;
+    if (JSON.parse(localStorage.progress).etape2 != "") {
+        document.querySelector(`.nav-link`).innerHTML += "<li class=\"pr-5\"><a href=\"/garde.html\">Garde</a></li>"
+
+    }
+    if (JSON.parse(localStorage.progress).finale != "") {
+        document.querySelector(`body`).innerHTML += `<div class="success md:w-1/2"><p class="font-semibold text-white texte-xl">Félicitation Pour avoir compris le code finale de César qui était :<span class="font-bold text-gray-200 texte-xl">quae sunt caesaris, caesari</span></p></div>`;
+    }
+
+}
+
+
+
+if (!localStorage.getItem('progress')) {
+    localStorage.setItem("progress", JSON.stringify(progress));
+    console.log(localStorage.getItem(progress))
+}
+
+document.querySelector(`.form-container`).addEventListener("submit", e => {
+    e.value
+    e.preventDefault()
+    console.log(e.target[0].value)
+    /*  let progress = localStorage.getItem("progress");
+     progress.etape1 = e.submit.value;
+     localStorage */
+    if (e.target[0].value === "Pr0jet48hYgroupe2") {
+        let progress = JSON.parse(localStorage.getItem("progress"));
+
+        progress.etape1 = e.target[0].value;
+
+        localStorage.progress = JSON.stringify(progress);
+        document.querySelector(`.nav-link`).innerHTML += "<li class=\"pr-5\"><a href=\"/parallax.html\"> Hidden</a></li>";
+        document.querySelector(`body`).innerHTML += `<div class="progress"><p class="font-bold text-white texte-xl">Félicitation Pour avoir compris une partie du message de césar,<br> en remerciement il vous offre ceci </p><spanclass="font-semibold text-gray-200 texte-md">tvlnhvyozlnhlaphzlnhlap</spanclass=></div>`;
+    }
+
+    if (e.target[0].value === "alea jacta est" && JSON.parse(localStorage.progress).etape1 != "") {
+        let progress = JSON.parse(localStorage.getItem("progress"));
+
+        progress.etape2 = e.target[0].value;
+
+        localStorage.progress = JSON.stringify(progress);
+        document.querySelector(`.nav-link`).innerHTML += "<li class=\"pr-5\"><a href=\"/garde.html\">Garde</a></li>"
+    }
+
+    if (e.target[0].value === "7.5" && JSON.parse(localStorage.progress).etape2 != "" && localStorage.progress.etape1 != "") {
+        let progress = JSON.parse(localStorage.getItem("progress"));
+
+        progress.etape3 = e.target[0].value;
+
+        localStorage.progress = JSON.stringify(progress);
+    }
+
+    if (e.target[0].value === "quaesuntcaesariscaesari" && JSON.parse(localStorage.progress).etape1 != "" && JSON.parse(localStorage.progress).etape2 != "" && JSON.parse(localStorage.progress).etape3 != "") {
+        let progress = JSON.parse(localStorage.getItem("progress"));
+
+        progress.finale = e.target[0].value;
+
+        localStorage.progress = JSON.stringify(progress);
+        document.querySelector(`body`).innerHTML += `<div class="success md:w-1/2"><p class="font-semibold text-white texte-xl">Félicitation Pour avoir compris le code finale de César qui était :<span class="font-bold text-gray-200 texte-xl">quae sunt caesaris, caesari</span></p></div>`;
+    }
+})
+
+function fill() {
+    document.querySelector(`#hidden-knight`).setAttribute('aria-label', 'alea jacta est')
+}

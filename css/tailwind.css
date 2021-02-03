@@ -10,7 +10,7 @@
     }
 }
 .nav-wrapper{
-        @apply flex justify-between bg-gray-800 p-5 text-white font-bold text-2xl;
+        @apply w-full flex justify-between bg-gray-800 p-5 text-white font-bold text-2xl;
 }
 
 .nav-link{
@@ -18,20 +18,24 @@
 }
 
 .map-container{
-    @apply rounded w-1/2 bg-gray-200 mr-1;
+    @apply rounded w-full bg-gray-200 m-1 border ;
 }
+
 .map-svg{
     @apply object-cover h-full w-full;
 }
 
 .cesar-container{
-    @apply rounded w-1/2 bg-gray-400 flex flex-col;
+    @apply rounded w-full bg-gray-400 flex flex-col m-1 border py-4;
 }
 .form-container{
-    @apply rounded w-1/4 bg-gray-600 p-5 flex flex-row justify-center shadow;
+    @apply rounded w-full bg-gray-600 m-1 p-5 flex flex-row justify-center shadow;
 }
 .progress{
-    @apply rounded w-1/4 bg-green-600 p-2 mx-auto;
+    @apply rounded w-full bg-green-600 p-2 mx-auto;
+    }
+.success{
+    @apply rounded w-full bg-green-600 p-2 mx-auto;
     }
 
 .wrapper{
