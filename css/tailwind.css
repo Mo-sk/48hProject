@@ -29,17 +29,17 @@
     @apply rounded w-full bg-gray-400 flex flex-col m-1 border py-4;
 }
 .form-container{
-    @apply rounded w-full bg-gray-600 m-1 p-5 flex flex-row justify-center shadow;
+    @apply rounded w-full rounded bg-gray-600 m-1 p-5 flex flex-row justify-center shadow;
 }
 .progress{
-    @apply rounded w-full bg-green-600 p-2 mx-auto;
+    @apply rounded w-full bg-green-600 p-2 mx-auto text-center;
     }
 .success{
-    @apply rounded w-full bg-green-600 p-2 mx-auto;
+    @apply rounded w-full bg-green-600 p-2 mx-auto text-center;
     }
 
 .wrapper{
-    @apply mx-auto
+    @apply flex justify-center
 }
 
 #hidden-knight{

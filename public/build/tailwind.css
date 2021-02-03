@@ -31223,6 +31223,7 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgba(75, 85, 99, var(--tw-bg-opacity));
   border-radius: 0.25rem;
+  border-radius: 0.25rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -31240,6 +31241,7 @@ video {
   margin-left: auto;
   margin-right: auto;
   padding: 0.5rem;
+  text-align: center;
   width: 100%;
 }
 
@@ -31250,12 +31252,13 @@ video {
   margin-left: auto;
   margin-right: auto;
   padding: 0.5rem;
+  text-align: center;
   width: 100%;
 }
 
 .wrapper{
-  margin-left: auto;
-  margin-right: auto
+  display: flex;
+  justify-content: center
 }
 
 #hidden-knight{
