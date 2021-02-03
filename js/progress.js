@@ -8,9 +8,15 @@ let progress = {
 
 if (JSON.parse(localStorage.progress).etape1 != "") {
     document.querySelector(`.nav-link`).innerHTML += "<li class=\"pr-5\"><a href=\"/parallax.html\"> Hidden</a></li>";
+    document.querySelector(`body`).innerHTML += `<div class="progress md:w-1/2 "><p class="font-bold text-white texte-xl">Félicitation Pour avoir compris une partie du message de césar,<br> en remerciement il vous offre ceci </p><spanclass="font-semibold text-gray-200 texte-md">tvlnhvyozlnhlaphzlnhlap</span></div>`;
     if (JSON.parse(localStorage.progress).etape2 != "") {
         document.querySelector(`.nav-link`).innerHTML += "<li class=\"pr-5\"><a href=\"/garde.html\">Garde</a></li>"
+
     }
+    if (JSON.parse(localStorage.progress).finale != "") {
+        document.querySelector(`body`).innerHTML += `<div class="success md:w-1/2"><p class="font-semibold text-white texte-xl">Félicitation Pour avoir compris le code finale de César qui était :<span class="font-bold text-gray-200 texte-xl">quae sunt caesaris, caesari</span></p></div>`;
+    }
+
 }
 
 
@@ -60,7 +66,7 @@ document.querySelector(`.form-container`).addEventListener("submit", e => {
         progress.finale = e.target[0].value;
 
         localStorage.progress = JSON.stringify(progress);
-        document.querySelector(`body`).innerHTML += `<div class="success"><p class="font-semibold text-white texte-xl">Félicitation Pour avoir compris le code finale de César qui était :<span class="font-bold text-gray-200 texte-xl">quae sunt caesaris, caesari</span></p></div>`;
+        document.querySelector(`body`).innerHTML += `<div class="success md:w-1/2"><p class="font-semibold text-white texte-xl">Félicitation Pour avoir compris le code finale de César qui était :<span class="font-bold text-gray-200 texte-xl">quae sunt caesaris, caesari</span></p></div>`;
     }
 })
 

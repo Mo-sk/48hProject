@@ -6,8 +6,7 @@
   <title>The Formula</title>
   <meta name="description" content="background particles">
   <meta name="author" content="Simon G." />
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--  <link rel="stylesheet" media="screen" href="css/styles.css"> -->
   <link rel="stylesheet" href="public/build/tailwind.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -23,18 +22,24 @@
     <ul class="nav-link">
 
     </ul>
+    <button type="button" class="block text-gray-500 hover:text-white focus:text-white focus:outline-none">
+      <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+        <!--  <path  fill-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
+        <path  fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/> -->
+      </svg>
+    </button>
   </nav>
   <div class="mx auto">
     <p>Bienvenue à vous</p>
   </div>
-  <div class="container mx-auto py-5">
-    <div class="flex flex-row justify-evenly">
-      <div class="map-container">
+  <div class="md:container md:mx-auto py-5">
+    <div class="flex flex-col md:flex-row justify-evenly">
+      <div class="map-container md:w-1/2">
         <img class="map-svg" src="images/map.SVG" alt="map">
       </div>
-      <div class="cesar-container">
-        <a href="wikiJC.html" class="w-1/3 mx-auto">
-          <div class="  rounded-full h-60 border-4 overflow-hidden "><img src="images/cesar.png"
+      <div class="cesar-container md:w-1/2">
+        <a href="wikiJC.html" class="w-1/2 md:w-1/3 mx-auto">
+          <div class="  rounded-full h-44 md:h-60 border-4 overflow-hidden "><img src="images/cesar.png"
               class="object-fill w-full h-full  o cesar-buste" alt="cesar">
           </div>
         </a>
